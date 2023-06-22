@@ -96,6 +96,7 @@ class HomeFragment:Fragment()
             {
                 super.onScrolled(recyclerView, dx, dy)
                 val linearLayoutManager = recyclerView.layoutManager as LinearLayoutManager?
+
                     if (linearLayoutManager != null && linearLayoutManager.findLastCompletelyVisibleItemPosition() == healthModel.size-1)
                     {
                         loadingDialog.show()
