@@ -28,7 +28,6 @@ import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 import javax.inject.Named
 
-
 @AndroidEntryPoint
 class HomeFragment:Fragment()
 {
